@@ -500,3 +500,33 @@
 .biglogo{
     
 }
+/*** search ***/
+.search{
+    --padding: 14px;
+    width: max-content;
+    display: flex;
+    align-items : center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    transition: box-shadow 0.25s;
+}
+
+.search:focus-within{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.75) ;
+}
+.search-icon{
+    color: orange;
+}
+.search-input{
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.shoppingcart{
+    
+}

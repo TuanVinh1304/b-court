@@ -532,9 +532,7 @@
     border: none;
     background: transparent;
 }
-.shoppingcart{
-    
-}
+
 
 
 /*** back to top ***/
@@ -569,12 +567,12 @@ section:first-of-type p {
 h1,
 h2 {
 	color: #221e39;
-	font-size: 4rem;
+	
 	margin-bottom: 2rem;
 }
 
 h1 {
-	color: #fff;
+	color: #221e39;
 }
 
 img {

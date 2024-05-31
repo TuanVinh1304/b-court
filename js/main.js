@@ -149,3 +149,21 @@
 
 })(jQuery);
 
+// script.js
+document.addEventListener('DOMContentLoaded', () => {
+    const signInButton = document.getElementById('signInButton');
+    const userDropdown = document.getElementById('userDropdown');
+    const logoutButton = document.getElementById('logoutButton');
+
+    signInButton.addEventListener('click', () => {
+        // Simulate sign-in process
+        signInButton.style.display = 'none';
+        userDropdown.style.display = 'block';
+    });
+
+    logoutButton.addEventListener('click', () => {
+        // Simulate logout process
+        userDropdown.style.display = 'none';
+        signInButton.style.display = 'block';
+    });
+});

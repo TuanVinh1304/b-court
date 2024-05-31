@@ -613,3 +613,13 @@
     width: 320px;
 }
 
+
+.material-symbols-outlined.custom-icon {
+    font-size: 48px !important; /* This sets the height */
+    width: 60px !important; /* This sets the width */
+    display: inline-block !important; /* Ensures the width and height properties work correctly */
+    text-align: center; /* Optional: centers the icon within the span */
+    line-height: 1; /* Optional: adjusts line height to avoid extra spacing */
+    color: #fff !important;
+}
+

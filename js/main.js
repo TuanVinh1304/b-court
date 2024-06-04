@@ -155,15 +155,26 @@ document.addEventListener('DOMContentLoaded', () => {
     const userDropdown = document.getElementById('userDropdown');
     const logoutButton = document.getElementById('logoutButton');
 
-    signInButton.addEventListener('click', () => {
-        // Simulate sign-in process
+    // Check login status in localStorage
+    const loggedIn = localStorage.getItem('loggedIn');
+
+    if (loggedIn === 'true') {
         signInButton.style.display = 'none';
         userDropdown.style.display = 'block';
-    });
+    }
 
-    logoutButton.addEventListener('click', () => {
+    logoutButton.addEventListener('click', (e) => {
+        e.preventDefault(); // Prevent default link behavior
         // Simulate logout process
+        localStorage.removeItem('loggedIn');
         userDropdown.style.display = 'none';
         signInButton.style.display = 'block';
+        // Redirect to index.html
+        window.location.href = 'index.html';
     });
 });
+
+
+
+
+

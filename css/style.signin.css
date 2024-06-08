@@ -11,6 +11,8 @@ input {
   font-family: "Poppins", sans-serif;
 }
 
+
+
 .container {
   position: relative;
   width: 100%;
@@ -44,7 +46,7 @@ form {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 0rem 5rem;
+  padding: 0rem 0rem;
   transition: all 0.2s 0.7s;
   overflow: hidden;
   grid-column: 1 / 2;
@@ -54,10 +56,12 @@ form {
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
+  padding-left: 200px;
 }
 
 form.sign-in-form {
   z-index: 2;
+  padding-right: 200px;
 }
 
 .title {

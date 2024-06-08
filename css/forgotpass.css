@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
+.form-gap {
+    padding-top: 200px;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+    z-index: -1; /* Places the image behind other elements */
+}
+
+.btn-primary {
+    background-color: #81c408; /* Matches the primary button color in the sign-in/sign-up forms */
+    border: none;
+    outline: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-primary:hover {
+    background-color: orange; /* Matches the hover color in the sign-in/sign-up forms */
+}
